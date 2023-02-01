@@ -19,15 +19,8 @@ from uuid import UUID
 
 import semver
 from memoization import cached
-from onefuzztypes import (
-    enums,
-    events,
-    models,
-    primitives,
-    requests,
-    responses,
-    webhooks,
-)
+from onefuzztypes import (enums, events, models, primitives, requests,
+                          responses, webhooks)
 from onefuzztypes.enums import TaskType
 from pydantic import BaseModel
 from requests import Response
